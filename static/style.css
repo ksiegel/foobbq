@@ -1,0 +1,48 @@
+@media (min-width: 768px) {
+	.container {
+		max-width: 730px;
+	}
+}
+
+#page_bg {
+	position: absolute;
+	
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	
+	background-image: url('/static/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-filter: blur(3px);
+
+	z-index: -999;
+}
+
+.main_container {
+	background: #fff;
+	margin-top: 10%;
+	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+	.main_container p {
+		padding: 30px 0px 40px 0px;
+	}
+
+#iframe_container {
+	margin: 10px;
+}
+
+h1,h2,h3,h4 {
+	font-family: 'Roboto Slab', sans-serif;
+	font-weight: 800;
+}
+
+p {
+	font-family: 'Roboto Slab', sans-serif;
+}
+
