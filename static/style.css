@@ -29,8 +29,9 @@
 	border-radius: 8px;
 }
 
-	.main_container p {
-		padding: 30px 0px 40px 0px;
+	.main_container #content_body {
+		padding: 0px;
+		margin-bottom: 10px;
 	}
 
 #iframe_container {
@@ -45,5 +46,6 @@ h1,h2,h3,h4 {
 p {
 	font-family: 'Roboto Slab', sans-serif;
 	font-size: 14pt;
+	margin: 20px;
 }
 
