@@ -15,7 +15,7 @@
 	background-image: url('/static/background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	-webkit-filter: blur(3px);
+	-webkit-filter: saturate(50%) blur(2px);
 
 	z-index: -999;
 }
