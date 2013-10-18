@@ -1,3 +1,3 @@
-foobbq
+FooBBQ
 ======
 BBQ, Beer, Bears
